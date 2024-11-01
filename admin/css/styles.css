@@ -1,0 +1,168 @@
+#rcsplay-block-editable-box{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.rcsplay_preview_div_iframe{
+
+}
+
+
+.rcsplay_preview_iframe{
+  min-height: 300px;
+  max-width: 560px;
+  margin: 0 auto;
+  display: block;
+}
+.rcsplay-error{
+  background-color: #ff2c2c;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px !important;
+}
+.logo-top{
+  padding: 20px;
+  background-color: #f1c40f;
+  margin-bottom: 20px;
+}
+.logo-top img{
+  /* margin-right: 10px;
+  margin-bottom: 20px; */
+}
+#btn-splay-gt{
+  background-color: #000;
+  border-color: #dedede;
+}
+
+/* Gutenberg EDIT */
+#rcsplay-block-editable-box-form{
+  background-color: #f1c40f;
+  padding: 10px 24px 24px 24px;
+}
+.edit-logo-top{
+  background-image: url('../images/youmbrella-logo-sm.jpg');
+  background-repeat: no-repeat;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  border-bottom: 2px dotted #000;
+}
+.rcsplay-edit-loading{
+  background-image: url('../images/loading2.gif');
+  background-repeat: no-repeat;
+  height: 32px;
+}
+
+/* settings pages */
+.page-title{
+}
+#rcsplay-admin,
+.rcsplay-admin {
+}
+  #rcsplay-admin .row,
+  #rcsplay-admin .rcsplay-row,
+  .rcsplay-admin .row,
+  .rcsplay-admin .rcsplay-row {
+    margin-left: -20px;
+    margin-right: -20px;
+    float: none; }
+  #rcsplay-admin .row .col,
+  #rcsplay-admin .rcsplay-row .rcsplay-col,
+  .rcsplay-admin .row .col,
+  .rcsplay-admin .rcsplay-row .rcsplay-col {
+    padding: 0 20px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  #rcsplay-admin .row .col-1,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-1,
+  .rcsplay-admin .row .col-1,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-1 {
+    width: 16.666%; }
+  #rcsplay-admin .row .col-2,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-2,
+  .rcsplay-admin .row .col-2,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-2 {
+    width: 33.333%; }
+  #rcsplay-admin .row .col-3,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-3,
+  .rcsplay-admin .row .col-3,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-3 {
+    width: 50%; }
+  #rcsplay-admin .row .col-4,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-4,
+  .rcsplay-admin .row .col-4,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-4 {
+    width: 66.666%; }
+  #rcsplay-admin .row .col-5,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-5,
+  .rcsplay-admin .row .col-5,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-5 {
+    width: 83.333%; }
+  #rcsplay-admin .row .col-6,
+  #rcsplay-admin .rcsplay-row .rcsplay-col-6,
+  .rcsplay-admin .row .col-6,
+  .rcsplay-admin .rcsplay-row .rcsplay-col-6 {
+    width: 100%; }
+  #rcsplay-admin .row:before,
+  #rcsplay-admin .row:after,
+  #rcsplay-admin .rcsplay-row:before,
+  #rcsplay-admin .rcsplay-row:after,
+  #rcsplay-admin .clearfix:before,
+  #rcsplay-admin .clearfix:after,
+  .rcsplay-admin .row:before,
+  .rcsplay-admin .row:after,
+  .rcsplay-admin .rcsplay-row:before,
+  .rcsplay-admin .rcsplay-row:after,
+  .rcsplay-admin .clearfix:before,
+  .rcsplay-admin .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  #rcsplay-admin .row:after,
+  #rcsplay-admin .rcsplay-row:after,
+  #rcsplay-admin .clearfix:after,
+  .rcsplay-admin .row:after,
+  .rcsplay-admin .rcsplay-row:after,
+  .rcsplay-admin .clearfix:after {
+    clear: both; }
+  @media (max-width: 1200px) {
+    #rcsplay-admin .row .col,
+    #rcsplay-admin .rcsplay-row .rcsplay-col,
+    .rcsplay-admin .row .col,
+    .rcsplay-admin .rcsplay-row .rcsplay-col {
+      width: 100%;
+      float: none;
+      margin: 10px 0; } }
+  #rcsplay-admin .status,
+  .rcsplay-admin .status {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 3px 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold; }
+    #rcsplay-admin .status.positive,
+    .rcsplay-admin .status.positive {
+      background-color: limeGreen; }
+    #rcsplay-admin .status.negative,
+    .rcsplay-admin .status.negative {
+      background-color: red; }
+    #rcsplay-admin .status.neutral,
+    .rcsplay-admin .status.neutral {
+      background: gray; }
+  #rcsplay-admin .green,
+  .rcsplay-admin .green {
+    color: green; }
+  #rcsplay-admin .red,
+  .rcsplay-admin .red {
+    color: red; }
+
+.sidebar, #rcsplay-admin .sidebar {
+  border-left: 1px solid #ccc;
+}
+.sidebar>div, #rcsplay-admin .sidebar>div {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
